@@ -15,6 +15,7 @@ export type BottomTabParamList = {
 
 export type TabOneParamList = {
   TabOneScreen: undefined;
+  AlbumScreen: undefined;
 };
 
 export type TabTwoParamList = {
@@ -25,4 +26,11 @@ export type Album = {
   id: string;
   imageUri: string;
   artistHeadline: string;
+}
+
+export type Song = {
+  id: string,
+  imageUri: string,
+  title: string,
+  artist: string,
 }
